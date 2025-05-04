@@ -1,0 +1,42 @@
+# Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+venv/
+ENV/
+env.bak/
+env/
+.venv/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Installers
+*.exe
+*.msi
+
+# Database
+*.sqlite
+*.db
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# private_doc that need to be excluded
+private_doc/
+private_doc/*
