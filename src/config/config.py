@@ -1,7 +1,5 @@
-class Config:
-    def __init__(self):
-        self.solana_endpoint = "https://api.devnet.solana.com"
-        self.api_port = 8000
-        # TODO: Load configuration from file or environment variables
+# Solana Cluster URL (Devnet)
+SOLANA_CLUSTER_URL = "https://api.devnet.solana.com"
 
-config = Config()
+# Example Account Address for testing
+EXAMPLE_ACCOUNT_ADDRESS = "So1111111111111111111111111111111111111112"
